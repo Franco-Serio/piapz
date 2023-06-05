@@ -3,11 +3,10 @@ body {
     font-family: Arial, Helvetica, sans-serif; /*tipo de fonte*/
     background-color: #aaced6; /*cor de fundo*/
     
-    
 }
 
 .cabecalho {
-    background-image: url(pi\ imagem.jpg); /*preenche fundo com imagem*/
+    background-image: url(IMGPlan/planejamentoFinanceiro.jpg); /*preenche fundo com imagem*/
     height: 350px; /*altura da imagem*/
     background-size: cover;/*cover ocupa a area toda sem duplicar*/
     background-position: right center; /*tipos bottom, right bottom, content*/
@@ -23,7 +22,7 @@ body {
 
 .cabecalho-conteudo h1 {
     font-size: 56px; /*tamanho da fonte*/
-    text-shadow: 4px 4px 5px black; /*sombra: desloca horizontal, vertical e esfumaçamento*/
+    text-shadow: 4px 4px 5px rgb(255, 0, 0); /*sombra: desloca horizontal, vertical e esfumaçamento*/
     text-transform: uppercase; /*colocar texto em maiúsculo*/
     margin-bottom: 0; /*margem inferior*/
 }
@@ -33,8 +32,8 @@ body {
     font-size: 22px; /*tamanho da fonte*/
     display: block; /*configura como elemento de bloco*/
     padding: 10px; /*espaçamento interno*/
-    border-bottom: 3px solid; /*borda da base*/
-    border-radius: 40px;
+    border: 3px solid; /*borda da base*/
+    border-radius: 50px;
     border-color:whitesmoke; /*cor da borda*/
 
 }
@@ -47,7 +46,7 @@ body {
 .cabecalho nav li {
     display: inline-block;/*configura como linha e bloco*/
     list-style-type: none; /*tira os bullets*/
-    border: 1px solid white;/*configuração da borda*/
+    border: 2px solid white;/*configuração da borda*/
     margin-left: 15px; /*margem esquerda*/
     
 }
@@ -64,11 +63,11 @@ body {
 }
 
 .cabecalho nav a:hover {
-    background-color: rgba(40, 156, 185, 0.8); /*cor ao passar o mouse*/
+    background-color: rgb(129, 58, 187); /*cor ao passar o mouse*/
 }
 
 main {
-    width: 80%; /*largura*/
+    width: 90%; /*largura*/
     margin: auto; /*margem automática*/
     max-width: 1920px; /*largura máxima*/
     min-width: 1080px; /*largura mínima*/
@@ -80,23 +79,55 @@ article {
     margin-bottom: 30px; /*margem inferior*/
     margin-top: 30px; /*margem superior*/
     line-height: 1.5; /*espaçamento entre linhas*/
+    height: fit-content;
 }
 
 article h2 {
     border-bottom: 2px solid #ccc; /*configurar borda*/
-    background-color:rgb(79, 210, 243); /*configurar cor de fundo*/
+    background-color:rgb(10, 121, 65); /*configurar cor de fundo*/
     padding: 10px; /*cria espaçamento interno*/
     margin-top: 0; /*margem superior*/
     color: white; /*cor da fonte*/
     text-shadow: 4px 4px 5px black; /*sombra*/
+    border-radius: 20px;
+}
+
+article h3 {
+    border-bottom: 2px solid #ccc; /*configurar borda*/
+    background-color:rgb(20, 151, 202); /*configurar cor de fundo*/
+    padding: 18px; /*cria espaçamento interno*/
+    margin-top: 30px; /*margem superior*/
+    color: white; /*cor da fonte*/
+    text-shadow: 4px 4px 5px black; /*sombra*/
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+article li{
+    list-style-position: inside;
 }
 
 .plan1{
     float:left; /*deslocar imagem para esquerta*/
-    width: 200px; /*largura da imagem*/
-    
-    padding-right: 13px;
+    width: 180px; /*largura da imagem*/
+    border-radius: 20px;
+    padding: 0px 20px 20px 0px;
 
+}
+
+.plan2{
+    float:left; /*deslocar imagem para esquerta*/
+    width: 150px; /*largura da imagem*/
+    border-radius: 20px;
+    padding: 0 20px 20px 0px;
+
+}
+
+.plan3{
+    float:left; /*deslocar imagem para esquerta*/
+    width: 200px; /*largura da imagem*/
+    border-radius: 20px;
+    padding: 0 20px 20px 0px;
 
 }
 
@@ -116,4 +147,13 @@ article h2 {
     padding: 30px; /*espaços internos*/
     text-shadow: 2px 2px 2px black; /*sombra*/
     letter-spacing: 2px; /*espaço entre letras*/
+}
+
+.resultado img {
+    width: 600px; /*largura da imagem*/
+    max-width: 1920px;
+    display: block;
+    float: center;
+    margin-left: 30%;
+    border-radius: 20px;
 }
