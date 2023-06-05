@@ -1,0 +1,142 @@
+<!doctype html>
+<!--doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+<html lang="pt-br">
+    <head>
+        <!--descricoes visualizadas no motor de busca-->
+        <title>pagina de exemplo estrutura basica</title>
+        <!--declara o tipo de codificacao de caracteres utilizado-->
+        <meta charset="utf-8">
+        <meta name="author" content="vitor">
+        <meta name="description" content="estudando html5">
+        <meta name="keywords" content="html5, tecnologia">
+        <style>
+            body{
+                background-color: lightgrey;
+            }
+            h1{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 40px; /*tamanho da fonte do texto*/
+                font-style: normal; /*estilo da fonte*/
+                font-variant: small-caps; /*variação de estilo da fonte*/
+                color: royalblue; /*cor da fonte(letra)*/
+                background-color: aqua; /*cor de fundo*/
+                margin-top: 50px; /*margem superior*/
+                margin-left: 50px; /*margem superior*/
+                height: 100px; /*altura da pagina*/
+                padding-top: 50px; /*alinhamento superior do texto*/
+                padding-left: 50px; 
+                width: auto; /*largura da pagina*/
+                text-align: center; /*alinhamento do texto*/
+                border-top: solid 10px #ff7f00; /*borda superior*/
+                border-bottom: solid 10px #ff7f00; /*borda inferior*/
+
+            }
+            h2{
+                text-transform: uppercase;
+                font-family: 'Courier New', Courier, monospace;
+                color: chartreuse;
+                background-color: blue;
+                border: dashed 5px red; /*estilo, largura, cor da borda*/
+                /*tipos de bordas:dotted = bolinhas; solid= traço;
+                double = borda dupla; dashed= tracos*/
+                padding: 50px; /*espacamento entre a borda e o texto*/
+                text-align: center; /*alinhamento centralizado*/
+            
+            }
+            .apz{
+                float:right;/*posiciona o texto ao lado da imagem*/
+                width: 200px;/*alterar o tamanho da imagem*/
+
+            }
+            a:link{
+                color:green; /*cor do link*/
+            }
+            a:hover{
+                background-color: blueviolet; /*cor ao passar o mouse sobre o link*/
+            }
+            a:visited{
+                color: red; /*cor do link ja clicado*/
+            
+            }
+            a:active{
+                color:white; /*cor ao pressionar o mouse no link*/
+            }
+            ul li{
+                list-style-type: circle; /*tipos de marcadores circle;square*/
+            }
+            ol li{
+                list-style-type: lower-latin; /*alguns tipos: lower-alpha;lower latin;lower-roman*/
+                list-style-position:initial; /*posição da lista initial e inside*/
+
+            }
+            p{
+                color: darkblue;
+                font-variant: normal;
+                text-align: left;
+                text-decoration: underline;
+                text-indent: 30px; /*espaçamento no inicio do paragrafo*/
+                margin: 30px;
+                margin-bottom: 70px;
+
+                text-transform: none;
+            }
+            .destaque{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color: crimson;
+                background-color: burlywood;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>estrutura basica CSS</h1>
+        <h2>aprenda a aplicar estilos na sua página com CSS</h2>
+       
+        <img src="apz imagem.jpg" class="apz" alt="'imagem do jovem aprendiz">
+        <p class="destaque">Mussum Ipsum, cacilds vidis litro abertis.
+        Interessantiss quisso pudia ce receita de bolis,
+        mais bolis eu num gostis.
+        Nullam volutpat risus nec leo commodo,
+        ut interdum diam laoreet.
+        Sed non consequat odio.Leite de capivaris,
+        leite de mula manquis sem cabeça.
+        Cevadis im ampola pa arma uma pindureta.</p>
+
+        
+        <p class="destaque">Nullam volutpat risus nec leo commodo,
+        ut interdum diam laoreet.
+        Sed non consequat odio.
+        Aenean aliquam molestie leo,
+        vitae iaculis nisl.
+        Não sou faixa preta cumpadi,
+        sou preto inteiris,
+        inteiris.
+        Viva Forevis aptent taciti sociosqu ad litora torquent.</p>
+            
+        <p class="destaque">Quem num gosta di mé,
+        boa gentis num é.
+        A ordem dos tratores não altera o pão duris.
+        In elementis mé pra quem é amistosis quis leo.
+        Cevadis im ampola pa arma uma pindureta.</p>
+
+        
+        <a href="https://portal.office.com" target="_blank"> OFFICE </a><br>
+        <a href="https://pa.senac.br" target="_blank">acese o site do Senac</a><br>
+        <a href="https://www.cnnbrasil.com.br/" target="_blank">CNN BRASIL</a><br>
+        <a></a>
+        <a href="#" target="_blank">legenda</a>
+
+        <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ul>
+
+        <ol>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ol>
+
+
+    </body>
+</html>
