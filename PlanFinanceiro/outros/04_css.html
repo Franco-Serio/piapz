@@ -1,0 +1,120 @@
+<!doctype html>
+<!-- doctype informa ao agente de usuario a versão do html que deve ser redenrizado -->
+<html lang="pt-br">
+    <head>
+        <!--descrições visualizadas no motor de busca -->
+        <title> pagina de exemplo estrutura basica </title>
+        <!-- declara o tipo de codificação de caracteres utilizado-->
+        <meta charset="utf-8">
+        <meta name="author" content="Leonardo">
+        <meta name="description" content="estudando html5">
+        <meta name="Keywords" content="html5, tecnologia">
+        <style>
+        body{
+            background-color: aqua;
+        }
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px; /*tamanho da fonte do texto*/
+            font-style: normal; /*estilo da fonte*/
+            font-variant: small-caps; /*variação de estilo da fonte*/
+            color: red; /*cor da fonte(letra)*/
+            background-color: yellow; /*cor de fundo*/
+            margin-top: 50px; /*margem superior*/
+            height: 100px; /*altura da página*/
+            padding-top: 50px; /*espaçamento superior do texto*/
+            padding-left: 50px;
+            width: auto; /*largura da página*/
+            text-align: center; /*alinhamenro do texto*/
+            border-top: solid 10px purple; /*borda superior*/
+            border-bottom: solid 10px purple; /*borda inferior*/
+        }
+        h2{
+            text-transform: uppercase; /*coloc texto em maíusculo*/
+            font-family: 'Courier New', Courier, monospace;
+            color: pink;
+            background-color: purple;
+            border: dotted 5px red; /*estilo, largura, cor da borda*/
+            /*tipos de bordas: dotted = bolinhas; solid = traço;
+            double = borda dubla; dashed = traços*/
+            padding: 50px; /*espaçamento entre a borda e o texto*/
+            text-align: center; /*alinhamento centralizado*/
+        }
+        p{
+            color: crimson;
+            font-variant: normal;
+            text-align: left;
+            text-decoration: underline;
+            text-indent: 40px; /*espaçamento noinício do parágrafo*/
+            margin: 20px 40px 10px 40px;
+            margin-bottom: 30px;
+        }
+        .cubo{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: lightgrey;
+            background-color: green;
+        }
+        .lua{
+            float: left; /*posiciona o texto ao lado da imagem*/
+            width: 400px; /*alterar tamanho da imagem*/
+        }
+        a:link{
+            color: green; /*cor do link*/
+        }
+        a:hover{
+            background-color: blue; /*cor ao passar o mouse sobre o link*/
+        }
+        a:visited{
+            color: red; /*cor do link já clicado*/
+        }
+        a:active{
+            color: orange; /*cor ao pressionar o mouse no link*/
+        }
+        ul li{
+            list-style-type: circle; /*tipos de marcadores: circle;square*/
+        }
+        ol li{
+            list-style-type: lower-alpha; /*alguns tipos: lower-alpha;lower-latin;lower-roman*/
+            list-style-position: initial; /*posição da lista initial e inside*/
+        }
+        </style>
+    </head>
+    <body>
+        <h1>estrutura basica CSS</h1>
+        <h2>Aprenda a aplicar estilos na sua página com CSS</h2>
+
+        <img src="luar.jpg" class="lua" alt="luar">
+        <p class="cubo">Mussum Ipsum, cacilds vidis litro abertis. 
+        Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.
+        Praesent vel viverra nisi.
+        Mauris aliquet nunc non turpis scelerisque, eget.
+        Quem manda na minha terra sou euzis!Suco de cevadiss, é um leite divinis,
+        qui tem lupuliz, matis, aguis e fermentis.</p>
+
+        <p class="cubo">Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis.
+        Cevadis im ampola pa arma uma pindureta.
+        Posuere libero varius. Nullam a nisl ut ante blandit hendrerit.
+        Aenean sit amet nisi.Casamentiss faiz malandris se pirulitá.</p>
+
+        <p id="cocelhos">Si num tem leite então bota uma pinga aí cumpadi!Cevadis im ampola pa arma uma pindureta.
+        Delegadis gente finis, bibendum egestas augue arcu ut est.
+        Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+        <a href="https://portal.office.com"> OFFICE</a><br>
+        <a href="https://pa.senac.br" target="_blank"> Acesse o site do Senac</a><br>
+        <a href="https://www.cnnbrasil.com.br" target="_blank"> CNN BRASIL</a>
+        <a href="https://"> </a>
+
+        <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ul>
+
+        <ol>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ol>
+
+    </body>
+</html>

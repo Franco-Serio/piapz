@@ -1,0 +1,159 @@
+body {
+    margin: 0; /*margem do corpo*/
+    font-family: Arial, Helvetica, sans-serif; /*tipo de fonte*/
+    background-color: #aaced6; /*cor de fundo*/
+    
+}
+
+.cabecalho {
+    background-image: url(IMGPlan/planejamentoFinanceiro.jpg); /*preenche fundo com imagem*/
+    height: 350px; /*altura da imagem*/
+    background-size: cover;/*cover ocupa a area toda sem duplicar*/
+    background-position: right center; /*tipos bottom, right bottom, content*/
+    padding-top: 10px; /*fixa uma area limite na parte superior*/
+}
+
+.cabecalho-conteudo {
+    margin: 100px auto;/*configuração da margem*/
+    width: 80%; /*largura*/
+    text-align: center; /*alinhar texto centralizado*/
+    color: white;
+}
+
+.cabecalho-conteudo h1 {
+    font-size: 56px; /*tamanho da fonte*/
+    text-shadow: 4px 4px 5px rgb(255, 0, 0); /*sombra: desloca horizontal, vertical e esfumaçamento*/
+    text-transform: uppercase; /*colocar texto em maiúsculo*/
+    margin-bottom: 0; /*margem inferior*/
+}
+
+.cabecalho-conteudo p {
+    background-color: rgba(6, 138, 245, 0.5); /*canal vermelho, verde, azul e transparencia*/
+    font-size: 22px; /*tamanho da fonte*/
+    display: block; /*configura como elemento de bloco*/
+    padding: 10px; /*espaçamento interno*/
+    border: 3px solid; /*borda da base*/
+    border-radius: 50px;
+    border-color:whitesmoke; /*cor da borda*/
+
+}
+
+.cabecalho nav ul {
+    margin: 20px 50px 0 0; /*margem*/
+    text-align: right; /*alinhamento a direita*/
+}
+
+.cabecalho nav li {
+    display: inline-block;/*configura como linha e bloco*/
+    list-style-type: none; /*tira os bullets*/
+    border: 2px solid white;/*configuração da borda*/
+    margin-left: 15px; /*margem esquerda*/
+    
+}
+
+.cabecalho nav a {
+    background-color: rgba(0, 0, 0); /*configura cores*/
+    padding: 20px; /*espaçamentos*/
+    display: block; /*configura como elemento de bloco*/
+    color: white; /*com da fonte*/
+    text-decoration:none; /*efeito na fonte*/
+    text-transform: uppercase; /** fonte em maiúscula/
+    font-size: 12px; /*tamanho da fonte*/
+    letter-spacing: 2px; /*espaçamento entre letras*/
+}
+
+.cabecalho nav a:hover {
+    background-color: rgb(129, 58, 187); /*cor ao passar o mouse*/
+}
+
+main {
+    width: 90%; /*largura*/
+    margin: auto; /*margem automática*/
+    max-width: 1920px; /*largura máxima*/
+    min-width: 1080px; /*largura mínima*/
+}
+
+article {
+    background-color: white; /*cor de fundo*/
+    padding: 20px; /*espaçamento interno da caixa*/
+    margin-bottom: 30px; /*margem inferior*/
+    margin-top: 30px; /*margem superior*/
+    line-height: 1.5; /*espaçamento entre linhas*/
+    height: fit-content;
+}
+
+article h2 {
+    border-bottom: 2px solid #ccc; /*configurar borda*/
+    background-color:rgb(10, 121, 65); /*configurar cor de fundo*/
+    padding: 10px; /*cria espaçamento interno*/
+    margin-top: 0; /*margem superior*/
+    color: white; /*cor da fonte*/
+    text-shadow: 4px 4px 5px black; /*sombra*/
+    border-radius: 20px;
+}
+
+article h3 {
+    border-bottom: 2px solid #ccc; /*configurar borda*/
+    background-color:rgb(20, 151, 202); /*configurar cor de fundo*/
+    padding: 18px; /*cria espaçamento interno*/
+    margin-top: 30px; /*margem superior*/
+    color: white; /*cor da fonte*/
+    text-shadow: 4px 4px 5px black; /*sombra*/
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+article li{
+    list-style-position: inside;
+}
+
+.plan1{
+    float:left; /*deslocar imagem para esquerta*/
+    width: 180px; /*largura da imagem*/
+    border-radius: 20px;
+    padding: 0px 20px 20px 0px;
+
+}
+
+.plan2{
+    float:left; /*deslocar imagem para esquerta*/
+    width: 150px; /*largura da imagem*/
+    border-radius: 20px;
+    padding: 0 20px 20px 0px;
+
+}
+
+.plan3{
+    float:left; /*deslocar imagem para esquerta*/
+    width: 200px; /*largura da imagem*/
+    border-radius: 20px;
+    padding: 0 20px 20px 0px;
+
+}
+
+.btn {
+    background-color: #cdc7c3; /*cor do fundo*/
+    display: block; /*configura como bloco*/
+    padding: 12px 16px; /*cria espaços internos*/
+    border-radius: 6px; /*arredonda a borda*/
+    margin-left: auto; /*margem*/
+    width: fit-content;/*largura do texto dentro do conteúdo*/
+}
+
+.rodape {
+    color: white; /*cor fonte*/
+    background-color: #686c6c; /*cor de fundo*/
+    text-align: center; /*alinhar texto centralizado*/
+    padding: 30px; /*espaços internos*/
+    text-shadow: 2px 2px 2px black; /*sombra*/
+    letter-spacing: 2px; /*espaço entre letras*/
+}
+
+.resultado img {
+    width: 600px; /*largura da imagem*/
+    max-width: 1920px;
+    display: block;
+    float: center;
+    margin-left: 30%;
+    border-radius: 20px;
+}
