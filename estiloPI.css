@@ -138,7 +138,7 @@ article li{
     padding: 12px 16px; /*cria espaços internos*/
     border-radius: 6px; /*arredonda a borda*/
     margin-left: auto; /*margem*/
-    width: fit-content;/*largura do texto dentro do conteúdo*/
+    width: max-content;/*largura do texto dentro do conteúdo*/
 }
 
 .rodape {
