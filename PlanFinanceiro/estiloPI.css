@@ -29,7 +29,7 @@ body {
 }
 
 .cabecalho-conteudo p {
-    background-color: rgba(0, 59, 161, 0.9); /*canal vermelho, verde, azul e transparencia*/
+    background-color: rgba(0,59,161, 0.9); /*canal vermelho, verde, azul e transparencia*/
     font-size: 22px; /*tamanho da fonte*/
     display: block; /*configura como elemento de bloco*/
     padding: 10px; /*espaçamento interno*/
