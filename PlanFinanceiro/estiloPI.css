@@ -24,7 +24,7 @@ body {
 
 .cabecalho-conteudo h1 {
     font-size: 56px; /*tamanho da fonte*/
-    text-shadow: 6px 6px 2px #ff4f00; /*sombra: desloca horizontal, vertical e esfumaçamento*/
+    text-shadow: 6px 6px 4px #ff4f00; /*sombra: desloca horizontal, vertical e esfumaçamento*/
     text-transform: uppercase; /*colocar texto em maiúsculo*/
     margin-bottom: 0; /*margem inferior*/
 }
