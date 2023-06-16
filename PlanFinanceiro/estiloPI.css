@@ -9,6 +9,7 @@ body {
 .cabecalho {
     background-image: url(IMGPlan/planejamentoFinanceiro.jpg); /*preenche fundo com imagem*/
     height: 350px; /*altura da imagem*/
+    width:auto;
     background-size: cover;/*cover ocupa a area toda sem duplicar*/
     background-position: right center; /*tipos bottom, right bottom, content*/
     padding-top: 10px; /*fixa uma area limite na parte superior*/
