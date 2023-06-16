@@ -112,7 +112,7 @@ article li{
 
 .plan1{
     float:left; /*deslocar imagem para esquerta*/
-    width: 180px; /*largura da imagem*/
+    width: 200px; /*largura da imagem*/
     border-radius: 20px;
     padding: 0px 20px 20px 0px;
     
