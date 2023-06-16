@@ -35,7 +35,7 @@ body {
     display: block; /*configura como elemento de bloco*/
     padding: 10px; /*espaçamento interno*/
     border: 3px solid; /*borda da base*/
-    border-radius: 50px;
+    border-radius: 20px;
     border-color:whitesmoke; /*cor da borda*/
 
 }
@@ -62,6 +62,7 @@ body {
     text-transform: uppercase; /** fonte em maiúscula/
     font-size: 12px; /*tamanho da fonte*/
     letter-spacing: 2px; /*espaçamento entre letras*/
+    border-radius: 5px;
 }
 
 .cabecalho nav a:hover {
