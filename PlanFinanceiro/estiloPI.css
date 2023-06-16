@@ -144,7 +144,7 @@ article li{
     display:flex; /*configura como bloco*/
     padding: 12px 16px; /*cria espaços internos*/
     border-radius: 6px; /*arredonda a borda*/
-    margin-right: auto; /*margem*/
+    margin-left: auto; /*margem*/
     width:max-content;/*largura do texto dentro do conteúdo*/
 }
 
