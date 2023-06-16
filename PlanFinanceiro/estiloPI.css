@@ -140,7 +140,7 @@ article li{
 }
 
 .btn {
-    background-color: #d3ece4; /*cor do fundo*/
+    background-color: #3d475e; /*cor do fundo*/
     display:flex; /*configura como bloco*/
     padding: 12px 16px; /*cria espaços internos*/
     border-radius: 6px; /*arredonda a borda*/
