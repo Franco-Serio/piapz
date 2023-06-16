@@ -17,7 +17,7 @@ body {
 
 .cabecalho-conteudo {
     margin: 100px auto;/*configuração da margem*/
-    width: 80%; /*largura*/
+    width: 90%; /*largura*/
     text-align: center; /*alinhar texto centralizado*/
     color: white;
 }
